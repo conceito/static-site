@@ -31,7 +31,7 @@
 				*/
 				if (!empty($error)):
 					?>
-					<div class="alert alert-<?php echo ($error['id'] == 0) ? 'success' : 'error'; ?>">
+					<div class="alert alert-<?php echo ($error['id'] == 0) ? 'success' : 'danger'; ?>">
 						<p><?php echo $error['msg']; ?></p>
 					</div>
 				<?php

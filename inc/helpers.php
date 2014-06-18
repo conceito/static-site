@@ -91,7 +91,7 @@ function redirect($page = '', $params = array(), $hash = '')
  * @param string $body
  * @return string
  */
-function load_view($body = '')
+function load_email_template($body = '')
 {
 	global $base_url, $titleSite, $emailSite;
 	ob_start();
